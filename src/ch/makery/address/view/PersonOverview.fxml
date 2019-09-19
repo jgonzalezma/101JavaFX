@@ -60,7 +60,7 @@
                   </GridPane>
                   <Button layoutX="181.0" layoutY="257.0" mnemonicParsing="false" text="New..." />
                   <Button layoutX="246.0" layoutY="257.0" mnemonicParsing="false" text="Edit" />
-                  <Button layoutX="296.0" layoutY="257.0" mnemonicParsing="false" text="Delete" />
+                  <Button layoutX="296.0" layoutY="257.0" mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" />
                </children>
             </AnchorPane>
         </items>
